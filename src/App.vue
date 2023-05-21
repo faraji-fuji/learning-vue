@@ -4,6 +4,8 @@ export default {
   // declare some reactive state here
 
   data(){
+    let id = 0;
+
     return {
       message: "Hello, World!",
       message2: "Hello Faraji, vue is awesome",
@@ -12,7 +14,13 @@ export default {
       },
       titleClass: 'title',
       count: 0,
-      text: undefined
+      text: undefined,
+      awesome: true,
+      newTodo: '',
+      todos:[
+        {id: id++, text: "Learn HTML"},
+        {id: id++, text: "Learn JavaScript"}
+      ]
     }
   },
 
@@ -24,13 +32,35 @@ export default {
     },
 
     say_hi(){
-      alert("Hi faraji")
+      alert("Hi faraji");
+      console.log(this.todos)
     },
 
-    // onInput(e){
-    //   // a v-on handler recieves the native DOM event as the argument
-    //   this.text = e.target.value
-    // }
+    onInput(e){
+      // a v-on handler recieves the native DOM event as the argument
+      this.text = e.target.value
+    },
+
+    toggleAwesome(){
+      this.awesome = !(this.awesome)
+    },
+
+    addTodo(e){
+      let id = this.todos.length;
+
+      let todo = {
+        id: id,
+        text: this.newTodo
+      }
+
+
+      this.todos.push(todo)
+    },
+
+    removeTodo(todo){
+      this.todos.splice(todo.id, 1)
+    }
+
   }
 }
 </script>
@@ -56,6 +86,25 @@ export default {
   </form>
 
   <p>{{ text }}</p>
+
+  <!-- conditional rendering -->
+  <h1 v-if="awesome">Vue is awesome!</h1>
+  <h1 v-else>Oh NOoo</h1>
+  <button @click="toggleAwesome">Toggle</button>
+
+  <!-- list rendering -->
+  <form @submit.prevent>
+    <input v-model="newTodo">
+    <button @click="addTodo">Add todo</button>
+
+    <ul>
+      <li v-for="todo in todos" :key="todo.id">
+        {{ todo.text }}
+        <button @click="removeTodo(todo)">X</button>
+      </li>
+    </ul>
+    
+  </form>
 </template>
 
 
