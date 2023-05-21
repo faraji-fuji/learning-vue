@@ -1,6 +1,33 @@
 # learning-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Learn developing with view. This template should help get me started
+developing with Vue 3 in Vite.
+
+## Getting Started
+
+Hello, World!
+
+## Declarative Rendering
+
+Create a data property and use it as the text content for the `<h1>` in the 
+template.
+
+## Attribute Bindings
+
+Add a dynamic class binding to the `<h1>`, using the titleClass data property 
+as its value. If it's bound correctly, the text should turn red.
+
+
+
+
+
+
+
+
+
+
+
+---
 
 ## Recommended IDE Setup
 
