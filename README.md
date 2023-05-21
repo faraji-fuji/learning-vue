@@ -1,6 +1,6 @@
 # learning-vue
 
-Learn developing with view. This template should help get me started
+Learn developing with Vue. This template should help get me started
 developing with Vue 3 in Vite.
 
 ## Getting Started
