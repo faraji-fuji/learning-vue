@@ -7,6 +7,7 @@ import AttributeBindings from './components/AttributeBindings.vue'
 import EventListeners from './components/EventListeners.vue'
 import FormBindings from './components/FormBindings.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
+import ListRendering from './components/ListRendering.vue'
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
     <EventListeners />
     <FormBindings />
     <ConditionalRendering />
+    <ListRendering />
   </main>
 
 </template>
