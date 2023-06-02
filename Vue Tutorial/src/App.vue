@@ -9,6 +9,7 @@ import FormBindings from './components/FormBindings.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
 import ListRendering from './components/ListRendering.vue'
 import ComputedProperty from './components/ComputedProperty.vue'
+import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
 </script>
 
 <template>
@@ -30,6 +31,7 @@ import ComputedProperty from './components/ComputedProperty.vue'
     <ConditionalRendering />
     <ListRendering />
     <ComputedProperty />
+    <LifecycleAndTemplateRefs />
   </main>
 
 </template>
