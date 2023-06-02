@@ -1,7 +1,7 @@
 # learning-vue
 
 This repo contains Tutorials, Mini-Projects and Exercises to help me learn 
-and demonstrate my understanging of Vue.
+and demonstrate my understanding of Vue.
 
 ## Vue Tutorial
 
