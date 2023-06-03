@@ -10,6 +10,7 @@ import ConditionalRendering from './components/ConditionalRendering.vue'
 import ListRendering from './components/ListRendering.vue'
 import ComputedProperty from './components/ComputedProperty.vue'
 import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
+import Watchers from './components/Watchers.vue'
 </script>
 
 <template>
@@ -32,6 +33,7 @@ import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
     <ListRendering />
     <ComputedProperty />
     <LifecycleAndTemplateRefs />
+    <Watchers />
   </main>
 
 </template>

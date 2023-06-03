@@ -47,6 +47,10 @@ items should instantly hide it as well.
 Add a `mounted` hook, access the `<p>` via `this.$refs.p`, and perform some 
 direct DOM operations on it (e.g. changing its `textContent`).
 
+## 10. Watchers
+
+Implement a watcher that fetches a new todo when the button is clicked.
+
 
 ---
 
