@@ -14,6 +14,7 @@ import Watchers from './components/Watchers.vue'
 import Components from './components/Components.vue'
 import Props from './components/Props.vue'
 import Emits from './components/Emits.vue'
+import Slots from './components/Slots.vue'
 </script>
 
 <template>
@@ -40,6 +41,7 @@ import Emits from './components/Emits.vue'
     <Components />
     <Props />
     <Emits />
+    <Slots />
   </main>
 
 </template>

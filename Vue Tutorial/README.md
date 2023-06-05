@@ -63,6 +63,11 @@ Passing props to the child
 
 A child component can also emit events to the parent.
 
+## 14. Slots
+
+Provide some slot content to the child while making use of the parent's msg
+state
+
 ---
 
 ## Recommended IDE Setup
