@@ -51,6 +51,10 @@ direct DOM operations on it (e.g. changing its `textContent`).
 
 Implement a watcher that fetches a new todo when the button is clicked.
 
+## 11. Components
+
+Import the child component and render it in the template
+
 
 ---
 

@@ -11,6 +11,7 @@ import ListRendering from './components/ListRendering.vue'
 import ComputedProperty from './components/ComputedProperty.vue'
 import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
 import Watchers from './components/Watchers.vue'
+import Components from './components/Components.vue'
 </script>
 
 <template>
@@ -34,6 +35,7 @@ import Watchers from './components/Watchers.vue'
     <ComputedProperty />
     <LifecycleAndTemplateRefs />
     <Watchers />
+    <Components />
   </main>
 
 </template>
