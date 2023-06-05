@@ -12,6 +12,7 @@ import ComputedProperty from './components/ComputedProperty.vue'
 import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
 import Watchers from './components/Watchers.vue'
 import Components from './components/Components.vue'
+import Props from './components/Props.vue'
 </script>
 
 <template>
@@ -36,6 +37,7 @@ import Components from './components/Components.vue'
     <LifecycleAndTemplateRefs />
     <Watchers />
     <Components />
+    <Props />
   </main>
 
 </template>

@@ -55,6 +55,10 @@ Implement a watcher that fetches a new todo when the button is clicked.
 
 Import the child component and render it in the template
 
+## 12. Props
+
+Passing props to the child
+
 
 ---
 
