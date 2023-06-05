@@ -59,6 +59,9 @@ Import the child component and render it in the template
 
 Passing props to the child
 
+## 13. Emits
+
+A child component can also emit events to the parent.
 
 ---
 

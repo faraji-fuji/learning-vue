@@ -13,6 +13,7 @@ import LifecycleAndTemplateRefs from './components/LifecycleAndTemplateRefs.vue'
 import Watchers from './components/Watchers.vue'
 import Components from './components/Components.vue'
 import Props from './components/Props.vue'
+import Emits from './components/Emits.vue'
 </script>
 
 <template>
@@ -38,6 +39,7 @@ import Props from './components/Props.vue'
     <Watchers />
     <Components />
     <Props />
+    <Emits />
   </main>
 
 </template>
